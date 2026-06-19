@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://brincelotson.github.io/portal-igamesports-com/sitemap.xml

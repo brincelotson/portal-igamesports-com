@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>一念之间 · 爱游戏体育</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f0f2f5;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      line-height: 1.75;
+      color: #2d3748;
+      padding: 2rem 1.25rem;
+    }
+
+    .page {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* hero 区 —— 轻幅留白，调性克制 */
+    .hero {
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02), 0 1px 3px rgba(0, 0, 0, 0.04);
+      padding: 2.5rem 2rem 2rem;
+      margin-bottom: 2rem;
+      border: 1px solid rgba(0, 0, 0, 0.02);
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      color: #1a202c;
+      margin-bottom: 0.75rem;
+    }
+
+    .hero .date-tag {
+      font-size: 0.85rem;
+      color: #718096;
+      border-left: 3px solid #a0aec0;
+      padding-left: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero p {
+      color: #4a5568;
+      max-width: 65ch;
+    }
+
+    /* 卡片通用设计 —— 浅灰底色配合细腻边框阴影 */
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 1.75rem 2rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.01), 0 0 0 1px rgba(0, 0, 0, 0.02);
+      border: 1px solid #e9ecef;
+      transition: box-shadow 0.15s ease;
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03), 0 0 0 1px rgba(0, 0, 0, 0.02);
+    }
+
+    .card h2 {
+      font-size: 1.35rem;
+      font-weight: 500;
+      color: #1f2937;
+      margin-bottom: 0.8rem;
+      border-bottom: 1px solid #edf2f7;
+      padding-bottom: 0.3rem;
+    }
+
+    .card h3 {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #2d3748;
+      margin: 1rem 0 0.4rem;
+    }
+
+    .card p {
+      margin-bottom: 0.8rem;
+      color: #3d4a5c;
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .inset-quote {
+      background: #f7fafc;
+      border-left: 4px solid #b0bec5;
+      padding: 1rem 1.25rem;
+      margin: 1.25rem 0;
+      border-radius: 0 12px 12px 0;
+      font-style: normal;
+      color: #2d3748;
+      font-size: 0.95rem;
+    }
+
+    .inset-quote strong {
+      color: #1e293b;
+      font-weight: 600;
+    }
+
+    .inline-link {
+      color: #2563eb;
+      text-decoration: none;
+      border-bottom: 1px dashed #94a3b8;
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .inline-link:hover {
+      color: #1e40af;
+      border-bottom-color: #1e40af;
+    }
+
+    .faq-item {
+      margin-top: 0.75rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid #edf2f7;
+    }
+
+    .faq-item:first-child {
+      border-top: none;
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    .faq-question {
+      font-weight: 500;
+      color: #1e293b;
+    }
+
+    .faq-answer {
+      color: #4a5568;
+      margin-top: 0.2rem;
+    }
+
+    /* 响应式 */
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem 0.75rem;
+      }
+
+      .hero {
+        padding: 1.75rem 1.25rem;
+      }
+
+      .hero h1 {
+        font-size: 1.6rem;
+      }
+
+      .card {
+        padding: 1.25rem 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- hero 区：文章标题 + 导语 -->
+  <header class="hero">
+    <h1>体育的延伸 · 爱游戏体育</h1>
+    <div class="date-tag">2025 · 日常笔记</div>
+    <p>有时我在想，体育之所以动人，不只因为输赢，更因为它让我们在重复的日常里，找到一种「在场」的感觉。无论身在何处，只要心里还留着一份对比赛的念想，那份念想就会自己找到路。</p>
+  </header>
+
+  <!-- 正文 段落一 -->
+  <article class="card">
+    <h2>球场之外，另一种在场</h2>
+    <p>从少年时代在水泥地上投篮，到后来只能隔着屏幕看直播，体育从未离开过我的生活。只是形式变了，变得不那么直接，却也不那么奢侈。有时候深夜打开一场录像，看球员跑位、传切、投篮，屏幕的光映在脸上，好像自己也在那片地板上一样。</p>
+    <p>后来逐渐发现，和我有类似感受的人并不少。大家不再只满足于当观众，而是希望在比赛之外，还能找到某种可以持续参与的途径。也许是聊一聊战术，也许是重温某个经典回合，又或者只是需要一个安静的空间，能让自己和体育重新发生关系。</p>
+    <div class="inset-quote">
+      <strong>引用提示：</strong> 我们往往高估一场比赛的胜负，却低估一个习惯的力量。体育成为一种日常之后，它的意义就不再只是结果。
+    </div>
+    <p>这正是「爱游戏体育」这个提法给我的感觉——它没有试图去定义什么，而是提供了一个方向：体育可以是一种陪伴，而不只是一场show。</p>
+  </article>
+
+  <!-- 正文 段落二：特点描述 + 自然嵌入链接 -->
+  <article class="card">
+    <h2>从“看”到“在”</h2>
+    <p>传统的体育传播方式，强调的是观看——看比赛、看集锦、看数据。但这几年，我看到越来越多的人开始追求另一种状态：<strong>参与感</strong>。哪怕只是在一个社群里预测一下比分，或者在某个平台完成一次模拟选秀，那种「我在其中」的念头，就足以让人保持对体育的热情。</p>
+    <p>也因此，<a href="https://portal-igamesports.com" class="inline-link">爱游戏体育</a> 所承载的，其实是对「在场」的重新想象。它不试图代替真实的球场体验，却可以成为让日常与体育持续连接的一根线。对那些已经工作、生活节奏紧凑的人来说，这根线比想象中重要。</p>
+    <p>我曾经花了一整个下午，只是在一个体育论坛里翻看十年前某场总决赛的讨论帖。那些预测早已失效，但字里行间的投入却不会褪色。那一刻我意识到，体育最迷人的地方，从来不是它有多新，而是它有多真。</p>
+  </article>
+
+  <!-- 场景片段 —— 以小见大 -->
+  <article class="card">
+    <h2>一些具体时刻</h2>
+    <p>印象很深的一个场景，是一个朋友在加班到半夜之后，发了一条消息给我：“刚看了一遍08年决赛回放，还是觉得那才是我记忆中的篮球。” 他没有再说别的，但我知道他说的不只是篮球。那是某一种时间锚点，是我们这代人用来标记青春的东西。</p>
+    <p>后来他开始在 <a href="https://portal-igamesports.com" class="inline-link">爱游戏体育</a> 上偶尔逛逛，没有什么明确的目的，就是看看现在大家在聊什么，有什么新的视角。他跟我说，那感觉就像走进一家老酒吧，发现里面还是那些熟面孔，但酒单已经更新了。</p>
+    <p>另一个朋友则完全相反。她以前从不看体育，疫情期间因为无聊点开了一场足球赛，意外被那种不确定的紧张感吸引。现在她会定期找比赛看，偶尔也去社区里问一些基础问题。她说她喜欢那种「慢慢学会」的过程。</p>
+  </article>
+
+  <!-- FAQ 摘要 —— 简洁自然，不做作 -->
+  <article class="card">
+    <h2>几个常被提起的问题</h2>
+
+    <div class="faq-item">
+      <div class="faq-question">体育平台那么多，为什么要在意某一个？</div>
+      <div class="faq-answer">选择哪个平台其实不重要，重要的是它能否让你保持对体育的亲近感。如果一个地方让你觉得舒服、愿意常去，那它就是适合你的。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">我平时很忙，还有必要关注体育吗？</div>
+      <div class="faq-answer">忙和体育不冲突。五分钟看一个集锦、睡前翻翻讨论，都可以。体育不必成为负担，它可以是一种调剂。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">「爱游戏体育」这个名字有什么特别的吗？</div>
+      <div class="faq-answer">它强调的是一种态度：把体育当作一种可以「游戏」的东西去对待，认真但不沉重，投入但不执着。</div>
+    </div>
+  </article>
+
+  <!-- 最后一段：访问句 + 收束 -->
+  <article class="card">
+    <p style="font-size: 0.95rem; color: #4a5568;">如果你也曾在某个深夜，因为一个进球、一次扑救或一段解说而突然安静下来，那么你大概已经明白我想表达的意思。体育从来不是宏大叙事，它只是恰好成为了很多人生活里的一道暗纹。</p>
+    <p style="margin-top: 0.5rem;">偶尔过来看看，在 <a href="https://portal-igamesports.com" class="inline-link">爱游戏体育</a> 那里，也许会遇到和你一样的人。</p>
+  </article>
+
+  <!-- 极简 footer 只保留调性 -->
+  <footer style="text-align: center; margin-top: 2.5rem; font-size: 0.8rem; color: #a0aec0; border-top: 1px solid #e2e8f0; padding-top: 1.2rem;">
+    <span>写于一个再普通不过的下午 · 没有结论，只有继续</span>
+  </footer>
+</div>
+</body>
+</html>
